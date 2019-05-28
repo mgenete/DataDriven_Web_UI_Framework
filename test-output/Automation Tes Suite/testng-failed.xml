@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Tes Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.listner.ExtentReporter"/>
+    <listener class-name="com.qa.listner.Listner"/>
+  </listeners>
+  <test thread-count="5" name="invalid reg test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.test.TC_002_RegisterWithInvalidDataTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateRegistration" invocation-numbers="0"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.qa.test.TC_002_RegisterWithInvalidDataTest -->
+    </classes>
+  </test> <!-- invalid reg test(failed) -->
+</suite> <!-- Failed suite [Automation Tes Suite] -->
