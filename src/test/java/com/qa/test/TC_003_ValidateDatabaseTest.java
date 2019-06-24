@@ -41,14 +41,14 @@ public class TC_003_ValidateDatabaseTest extends TestBase{
 	}
 	
 	
-	@Test (dataProvider = "getTestData")
-	public void validateRegistration(String edition, String firstname, String lastname, String Email, String confEmail, String username, String password, String confPassword) {
-		register.newRegistration(edition, firstname, lastname, Email, confEmail, username, password, confPassword);
-		
-		Assert.assertEquals("1", register.getEditionType().getAttribute("value"));
-		Assert.assertEquals("Tom", register.getFirstName().getAttribute("value"));
-		Assert.assertEquals("Fredie", register.getLastName().getAttribute("value"));
-	}
+//	@Test (dataProvider = "getTestData")
+//	public void validateRegistration(String edition, String firstname, String lastname, String Email, String confEmail, String username, String password, String confPassword) {
+//		register.newRegistration(edition, firstname, lastname, Email, confEmail, username, password, confPassword);
+//		
+//		Assert.assertEquals("1", register.getEditionType().getAttribute("value"));
+//		Assert.assertEquals("Tom", register.getFirstName().getAttribute("value"));
+//		Assert.assertEquals("Fredie", register.getLastName().getAttribute("value"));
+//	}
 	
 	
 	

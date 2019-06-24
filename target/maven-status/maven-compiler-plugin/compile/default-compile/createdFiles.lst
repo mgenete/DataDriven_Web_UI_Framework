@@ -1,9 +1,0 @@
-com\qa\listner\WebEventListner.class
-com\qa\util\JsUtil.class
-com\qa\util\TestUtil.class
-com\qa\listner\ExtentReporter.class
-com\qa\listner\RetryListner.class
-com\qa\listner\Listner.class
-com\qa\listner\Retry.class
-com\qa\pages\Registration.class
-com\qa\base\TestBase.class

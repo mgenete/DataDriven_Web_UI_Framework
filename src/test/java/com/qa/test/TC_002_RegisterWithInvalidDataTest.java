@@ -42,10 +42,10 @@ public class TC_002_RegisterWithInvalidDataTest extends TestBase{
 	}
 	
 	
-	@Test (dataProvider = "getTestData")
-	public void validateRegistration(String edition, String firstname, String lastname, String Email, String confEmail, String username, String password, String confPassword) {
-		register.newRegistration(edition, firstname, lastname, Email, confEmail, username, password, confPassword);
-		Assert.assertEquals(register.getRegistrationErrorMessage(), "Please enter your first name");
-	}
+//	@Test (dataProvider = "getTestData")
+//	public void validateRegistration(String edition, String firstname, String lastname, String Email, String confEmail, String username, String password, String confPassword) {
+//		register.newRegistration(edition, firstname, lastname, Email, confEmail, username, password, confPassword);
+//		Assert.assertEquals(register.getRegistrationErrorMessage(), "Please enter your first name");
+//	}
 	
 }
